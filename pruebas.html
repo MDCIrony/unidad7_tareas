@@ -12,13 +12,25 @@
     <meta property="og:description" content="This is an example page to demonstrate usage of metadata on web pages.">
     <meta property="og:title" content="Metadata; The HTML &lt;head&gt;, on MDN">
 
-    <link rel="stylesheet" href="./style.css">
-    <script src="./scripts.js" defer></script>
 
   </head>
   <body>
-    <h1>Meta examples</h1>
+    <form>
+      <fieldset>
+        <legend>Información Personal</legend>
+        <label for="nombre">Nombre:</label>
+        <input name="nombre" id="nombre" type="text" tabindex="1" />
 
-    <p>Japanese example: ご飯が熱い。</p>
+        <label for="apellidos">Apellidos:</label>
+        <input name="apellidos" id="apellidos" type="text" tabindex="3" />
+      </fieldset>
+    
+      <fieldset>
+        <legend>Edad</legend>
+        <label><input type="checkbox" tabindex="2" name="edad" value="20-39" /> 20-39</label>
+        <label><input type="checkbox" tabindex="21" name="edad" value="40-59" /> 40-59</label>
+        <label><input type="checkbox" tabindex="22" name="edad" value="60-79" /> 60-79</label>
+      </fieldset>
+    </form>
   </body>
 </html>

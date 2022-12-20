@@ -1,0 +1,22 @@
+body {
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+input:required:valid {
+    background-color: rgb(13, 201, 60);
+    border-width: 3px;
+    }
+
+input:required:invalid {
+    background-color: #e27777;
+}
+
+#number_input:valid {
+    background-color: rgb(13, 201, 60);
+    border-width: 3px;
+}
+
+#number_input:invalid {
+    background-color: #e27777;
+}

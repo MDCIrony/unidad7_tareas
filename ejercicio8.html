@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/style_exc.css">
+    
+    <title>Formulario de prueba de HTML5</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Some personal data</legend>
+            <p>
+                <label for="name_input">Nombre: </label>
+                <input required autofocus tabindex="1" type="text" name="name_input" id="first_name" placeholder="Nombre completo"> 
+            </p>
+            <p>
+                <label for="email_input">Email: </label>
+                <input required tabindex="2" type="email" id="email_input" placeholder="example@something.com">
+            </p>
+            <p>
+                <label for="url_input">URL: </label>
+                <input tabindex="3" type="url" id="url_input" placeholder="Escribe la URL de tu página web personal">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Some temporal data</legend>
+            <p>
+                <label for="date_input">Fecha: </label>
+                <input tabindex="4" type="date" id="date_input">
+            </p>
+            <p>
+                <label for="time_input">Tiempo: </label>
+                <input tabindex="5" type="time" id="time_input">
+            </p>
+            <p>
+                <label for="date_time_input">Fecha y hora: </label>
+                <input tabindex="6" type="datetime" id="date_time_input">
+            </p>
+            <p>
+                <label for="month_input">Mes: </label>
+                <input tabindex="7" type="month" id="month_input">
+            </p>
+    
+    
+            <p>
+                <label for="week_input">Semana: </label>
+                <input tabindex="8" type="week" id="week_input">
+            </p>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Another data</legend>
+            <p>
+                <label for="number_input">Número (min -10; max 10): </label>
+                <input tabindex="9" type="number" max="10" min="-10" id="number_input">
+            </p>
+    
+            <p>
+                <label for="phone_input">Teléfono: </label>
+                <input tabindex="10" type="tel" id="phone_input">
+            </p>
+    
+            <p>
+                <label for="search_input">Búsqueda: </label>
+                <input tabindex="11" type="search" id="search_input">
+            </p>
+    
+            <p>
+                <label for="colour_input">Color favorito: </label>
+                <input tabindex="12" type="color" id="colour_input">
+            </p>
+        </fieldset>
+
+        <p>
+            <button tabindex="13" type="submit">Enviar datos</button>
+        </p>
+
+    </form>
+
+</body>
+</html>
