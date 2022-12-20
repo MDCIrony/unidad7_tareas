@@ -1,0 +1,33 @@
+html {
+    color: #00f;
+    background-color: #cfc;
+    font-family: Georgia, Cambria, serif;
+    font-size: 16px;
+}
+
+h1 {
+    color: #F00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 32px;
+}
+
+h2 {
+    color: #a00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 24;
+}
+
+.book_data {
+    color: #060;
+}
+
+.sustantivo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.special_text {
+    color: #fff;
+    background-color: #000;
+    font-style: italic;
+}
